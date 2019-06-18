@@ -1,1 +1,1 @@
-netstat -nr | grep default | head -n 1 | cut -d " " -f13
+netstat -nr | grep default | head -n 1
