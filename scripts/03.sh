@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo -n "give a commit comment : "
+echo "give a commit comment : "
 read comit
+norminette
 git add -A
 git commit -m "$comit"
 git push
