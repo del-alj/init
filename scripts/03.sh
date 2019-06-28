@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd ~/home
-git add *
-git commit -m "$2"
+echo -n "give a commit comment : "
+read comit
+git add -A
+git commit -m "$comit"
 git push
