@@ -1,1 +1,1 @@
-netstat -nr | grep default | head -n 1
+eval netstat -nr | grep default | head -n 1

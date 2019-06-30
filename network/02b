@@ -1,1 +1,1 @@
-eval ping -c2 10.12.255.255 | grep bytes | cut -d':' -f1 | cut -d' ' -f4
+eval ping -c2 `eval ifconfig en0 | grep "broadcast" | cut -d " " -f6` | grep bytes | cut -d':' -f1 | cut -d' ' -f4
