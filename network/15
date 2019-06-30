@@ -1,2 +1,2 @@
-open /etc/hosts
-add 46.19.122.85	 intra.42.fr
+Enter the information "46.19.122.85   intra.42.fr" into the hosts file via the following Commend :
+echo "46.19.122.85	 intra.42.fr" > /etc/hosts

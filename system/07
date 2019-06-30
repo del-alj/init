@@ -1,1 +1,1 @@
- ps ux | grep sshd
+cat /var/run/sshd.pid
