@@ -1,12 +1,16 @@
 First update the apt package repository cache of your Debian operating :
-sudo apt-get update
-sudo apt-get install openssh-server
+	sudo apt-get update
+	sudo apt-get install openssh-server
+	run the command to start OpenSSH server :
+	sudo systemctl start ssh
 
-run the command to start OpenSSH server :
-sudo systemctl start ssh
+	find the IP address of the computer running the SSH serve
+	ip a
+in mode ssh :
+	connect to this machine from another computer :
+	ssh USER@HOST/IP
 
-find the IP address of the computer running the SSH serve
-ip a
-
-connect to this machine from another computer :
-ssh USER@HOST/IP
+in mode graphique :
+open 
+like FileZilla, and  go to > file > site Manager > New Site
+and rempli the information
